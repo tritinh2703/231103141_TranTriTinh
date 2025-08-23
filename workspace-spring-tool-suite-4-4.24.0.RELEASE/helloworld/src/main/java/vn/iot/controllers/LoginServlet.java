@@ -19,6 +19,11 @@ public class LoginServlet extends HttpServlet {
 	 * @see HttpServlet#HttpServlet()
 	 */
 	@Override
+	protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+	    resp.setContentType("text/html");
+	    req.getRequestDispatcher("/Login.html").forward(req, resp); // Chuyển tiếp đến file login.html
+	}
+	@Override
 	protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 		resp.setContentType("text/html");
 		// lấy dữ liệu từ tham số của form
