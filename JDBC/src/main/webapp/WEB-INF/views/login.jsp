@@ -7,7 +7,7 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<form action=“login " method="post">
+	<form action=“login" method="post">
 		<h2>Tạo tài khoản mới</h2>
 		<c:if test="${alert !=null}">
 			<h3 class="alert alertdanger">${alert}</h3>
