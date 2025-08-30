@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+body {
+    font-family: Arial, Helvetica, sans-serif; /* Font mặc định hỗ trợ tiếng Việt */
+}
+
+.alert-danger {
+    color: red;
+    border: 1px solid red;
+    padding: 10px;
+}
+
+.input-group {
+    margin: 10px 0;
+}
+
+.form-control {
+    padding: 5px;
+    width: 200px;
+    font-family: Arial, Helvetica, sans-serif; /* Đảm bảo font cho input */
+}
+
+.btn-primary {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif; /* Đảm bảo font cho button */
+}
+
+.topbar {
+    margin-bottom: 20px;
+}
+
+.list-inline {
+    list-style: none;
+}
+
+.list-inline li {
+    display: inline;
+    margin-right: 10px;
+    font-family: Arial, Helvetica, sans-serif; /* Đảm bảo font cho topbar */
+}
